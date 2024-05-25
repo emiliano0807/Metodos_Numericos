@@ -10,8 +10,8 @@ int divicion(struct fraccion div1, struct fraccion div2);
 int main(void){
     struct fraccion fract1;
     struct fraccion fract2;
-    fract1.den= 3;
-    fract1.num=4;
+    fract1.den= 3;//Abajo
+    fract1.num=4;//Ariba
     fract2.den=6;
     fract2.num=2;
     multipli(fract1, fract2);
